@@ -73,7 +73,7 @@ body{
 
 .welcome-card p{
 
-    color:#403c3b;
+    color:#2e1b0e;
 
     font-size:22px;
 
@@ -113,9 +113,6 @@ button:hover{
 
     box-shadow:0 12px 25px rgba(0,0,0,.12);
 
-}/* ============================= */
-/*         Pastel Blobs          */
-/* ============================= */
 
 .blob{
 
@@ -123,9 +120,9 @@ button:hover{
 
     border-radius:50%;
 
-    filter:blur(80px);
+    filter:blur(50px);
 
-    opacity:.7;
+    opacity:.9;
 
     animation:float 10s ease-in-out infinite;
 
@@ -151,7 +148,7 @@ button:hover{
 
     height:350px;
 
-    background:#abe3df;
+    background:#90e7e1;
 
     top:120px;
 
@@ -165,7 +162,7 @@ button:hover{
 
     height:300px;
 
-    background:#FFF0B8;
+    background:#ffe675;
 
     bottom:-80px;
 
