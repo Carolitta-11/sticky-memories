@@ -6,7 +6,11 @@
 
 body{
 
+    margin:0;
+
     height:100vh;
+
+    overflow:hidden;
 
     display:flex;
 
@@ -14,24 +18,18 @@ body{
 
     align-items:center;
 
-    overflow:hidden;
-
     font-family:"Poppins",sans-serif;
 
-    background:linear-gradient(
-        135deg,
-        #FFF8F7 0%,
-        #FFFCEB 25%,
-        #F3F8FF 50%,
-        #F5FFF7 75%,
-        #FFF4FB 100%
-    );
+    background:#FFF8F2;
+
+    position:relative;
 
 }
 
 .overlay{
 
     width:100%;
+
     height:100vh;
 
     display:flex;
@@ -40,7 +38,9 @@ body{
 
     align-items:center;
 
-    background:transparent;
+    position:relative;
+
+    z-index:10;
 
 }
 
@@ -114,5 +114,99 @@ button:hover{
     transform:translateY(-3px);
 
     box-shadow:0 12px 25px rgba(0,0,0,.12);
+
+}/* ============================= */
+/*         Pastel Blobs          */
+/* ============================= */
+
+.blob{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(80px);
+
+    opacity:.7;
+
+    animation:float 10s ease-in-out infinite;
+
+}
+
+.blob1{
+
+    width:420px;
+
+    height:420px;
+
+    background:#F8C8DC;
+
+    top:-120px;
+
+    left:-120px;
+
+}
+
+.blob2{
+
+    width:350px;
+
+    height:350px;
+
+    background:#D7ECFF;
+
+    top:120px;
+
+    right:-100px;
+
+}
+
+.blob3{
+
+    width:300px;
+
+    height:300px;
+
+    background:#FFF0B8;
+
+    bottom:-80px;
+
+    left:180px;
+
+}
+
+.blob4{
+
+    width:380px;
+
+    height:380px;
+
+    background:#DDF6D2;
+
+    bottom:-120px;
+
+    right:-100px;
+
+}
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-20px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
 
 }
