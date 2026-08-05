@@ -57,7 +57,7 @@ body{
 
     border-radius:18px;
 
-    transform:rotate(-2deg);
+    transform:rotate(0deg);
 
     box-shadow:
     0 18px 40px rgba(92,82,82,.15);
@@ -112,7 +112,7 @@ button:hover{
 
     background:#F2AEBE;
 
-    transform:translateY(-4px);
+    transform:translateY(0px);
 
     box-shadow:0 12px 25px rgba(0,0,0,.12);
 
