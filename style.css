@@ -278,3 +278,14 @@ button:hover {
     }
 
 }
+#noteText{
+    direction: rtl;
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.note-card{
+    direction: rtl;
+}
