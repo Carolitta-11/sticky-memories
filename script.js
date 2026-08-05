@@ -10,8 +10,17 @@ document.getElementById("openNote").onclick = function(){
 
     noteCard.style.display = "block";
 
-    noteText.innerHTML =
-    `"لا تخف لأني معك. لا تتلفت لأني إلهك. قد أيدتك وأعنتك وعضدتك بيمين بري." (إش 41: 10). 🌼`;
+   noteText.innerHTML = `
+لا تخف لأني معك.<br><br>
+
+لا تتلفت لأني إلهك.<br><br>
+
+قد أيدتك وأعنتك وعضدتك بيمين بري.<br><br>
+
+<span class="verse">
+(إشعياء ٤١ : ١٠)🌼
+</span>
+`;
 }
 
 document.getElementById("backBtn").onclick = function(){
