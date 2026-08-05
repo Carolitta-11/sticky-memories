@@ -1,82 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Note</title>
 
-    <title>Daily Sticky Note</title>
-
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Background Shapes -->
+    <!-- Background Blobs -->
 
-    <div class="blob pink one"></div>
-    <div class="blob peach two"></div>
-    <div class="blob mint three"></div>
-    <div class="blob blue four"></div>
-    <div class="blob purple five"></div>
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+    <div class="blob blob4"></div>
+    <div class="blob blob5"></div>
+    <div class="blob blob6"></div>
+
+    <!-- Floating Hearts -->
+
+    <span class="heart h1">❤</span>
+    <span class="heart h2">❤</span>
+    <span class="heart h3">❤</span>
+    <span class="heart h4">❤</span>
+    <span class="heart h5">❤</span>
 
     <!-- Stars -->
 
-    <div class="star s1">✦</div>
-    <div class="star s2">✦</div>
-    <div class="star s3">✦</div>
-    <div class="star s4">✦</div>
-    <div class="star s5">✦</div>
-
-    <!-- Hearts -->
-
-    <div class="heart h1">❤</div>
-    <div class="heart h2">❤</div>
-    <div class="heart h3">❤</div>
-    <div class="heart h4">❤</div>
-    <div class="heart h5">❤</div>
+    <span class="star s1">✦</span>
+    <span class="star s2">✦</span>
+    <span class="star s3">✦</span>
+    <span class="star s4">✦</span>
+    <span class="star s5">✦</span>
 
     <!-- Dots -->
 
-    <div class="dots dots1">
+    <div class="dots dots-left">
         <span></span><span></span><span></span><span></span>
         <span></span><span></span><span></span><span></span>
         <span></span><span></span><span></span><span></span>
     </div>
 
-    <div class="dots dots2">
+    <div class="dots dots-right">
         <span></span><span></span><span></span><span></span>
         <span></span><span></span><span></span><span></span>
         <span></span><span></span><span></span><span></span>
     </div>
 
-    <div class="dots dots3">
-        <span></span><span></span><span></span><span></span>
-        <span></span><span></span><span></span><span></span>
-        <span></span><span></span><span></span><span></span>
-    </div>
+    <!-- Sticky Note -->
 
-    <!-- Main Container -->
+    <main class="wrapper">
 
-    <main class="container">
-
-        <div class="sticky-note">
+        <div class="sticky">
 
             <!-- Pin -->
 
             <div class="pin">
-                <span class="head"></span>
-                <span class="needle"></span>
+                <div class="pin-head"></div>
+                <div class="pin-body"></div>
             </div>
-
-            <!-- Heading -->
 
             <h1>
                 HI SOBA
@@ -84,21 +73,36 @@
             </h1>
 
             <div class="divider">
-                <span>❤</span>
+                <span></span>
+                ❤
+                <span></span>
             </div>
 
-            <p class="subtitle">
-                Check your Message <br>
+            <p>
+                Check your Message
+                <br>
                 for today
             </p>
 
             <button class="open-btn">
 
-                Open Today's Note
+                <span>Open Today's Note</span>
 
-                <span class="icon">
-                    ✉
-                </span>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    viewBox="0 0 24 24">
+
+                    <path d="M4 4h16v16H4z"/>
+                    <path d="M4 6l8 7 8-7"/>
+
+                </svg>
 
             </button>
 
@@ -107,5 +111,4 @@
     </main>
 
 </body>
-
 </html>
