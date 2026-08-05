@@ -18,13 +18,12 @@ body{
 
     font-family:"Poppins",sans-serif;
 
-    background:linear-gradient(
+    background: linear-gradient(
         135deg,
-        #FFF8F7 0%,
-        #FFFCEB 25%,
-        #F3F8FF 50%,
-        #F5FFF7 75%,
-        #FFF4FB 100%
+        #F6DCE7 0%,
+        #F8E8C8 30%,
+        #DDEDF9 60%,
+        #DDEFD9 100%
     );
 
 }
@@ -40,7 +39,9 @@ body{
 
     align-items:center;
 
-    background:transparent;
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter: blur(8px);
 
 }
 
@@ -52,20 +53,20 @@ body{
 
     text-align:center;
 
-    background:#FFF8B8;
+    background:#FFF3A8;
 
     border-radius:18px;
 
-    transform:rotate(-3deg);
+    transform:rotate(-2deg);
 
     box-shadow:
-    0 20px 45px rgba(0,0,0,.12);
+    0 18px 40px rgba(92,82,82,.15);
 
 }
 
 .welcome-card h1{
 
-    color:#4B4B4B;
+    color:#575757;
 
     font-size:42px;
 
@@ -75,9 +76,9 @@ body{
 
 .welcome-card p{
 
-    color:#6E6E6E;
+    color:#666;
 
-    font-size:22px;
+    font-size:21px;
 
     margin-bottom:35px;
 
@@ -99,9 +100,9 @@ button{
 
     border-radius:12px;
 
-    background:#F7CACA;
+    background:#F6BFCB;
 
-    color:#4A4A4A;
+    color:#4B4B4B;
 
     transition:.3s;
 
@@ -109,9 +110,9 @@ button{
 
 button:hover{
 
-    background:#F3B9B9;
+    background:#F2AEBE;
 
-    transform:translateY(-3px);
+    transform:translateY(-4px);
 
     box-shadow:0 12px 25px rgba(0,0,0,.12);
 
