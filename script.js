@@ -1,5 +1,5 @@
-document.getElementById("openNote").onclick=function(){
+document.getElementById("openNote").addEventListener("click",()=>{
 
-    alert("Coming Soon ❤️");
+alert("Coming Soon 🤍");
 
-}
+});
