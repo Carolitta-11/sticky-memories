@@ -52,17 +52,15 @@ body{
 
     text-align:center;
 
-    background:#FFF8B8;
+    background:#FFF3A8;
 
     border-radius:18px;
 
-    transform:rotate(-3deg);
+    box-shadow:0 18px 40px rgba(0,0,0,.12);
 
-    box-shadow:
-    0 20px 45px rgba(0,0,0,.12);
+    transition:.3s;
 
 }
-
 .welcome-card h1{
 
     color:#4B4B4B;
