@@ -42,16 +42,16 @@ body{
 
     width:430px;
 
-    background:#fff9d8;
-
+background:#FFF8B8;
+    
     padding:45px;
 
-    border-radius:12px;
-
-    transform:rotate(-2deg);
-
-    box-shadow:
-    0 15px 35px rgba(0,0,0,.35);
+border-radius:18px;
+    
+transform:rotate(-3deg);
+    
+   box-shadow:
+0 18px 40px rgba(176, 167, 125, .25);
 
     text-align:center;
 
@@ -79,8 +79,8 @@ body{
 
 button{
 
-    background:#ffd84d;
-
+background:#F6CFCF;
+    
     border:none;
 
     padding:18px 35px;
@@ -99,8 +99,8 @@ button{
 
 button:hover{
 
-    background:#ffca1d;
-
+background:#EDBFBF;
+    
     transform:scale(1.05);
 
 }
