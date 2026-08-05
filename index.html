@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
-
     <meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sticky Memories</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
-
+    
+    <!-- خط القاهرة لدعم اللغة العربية بشكل رائع على جميع الأجهزة -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,33 +22,21 @@
 
     <div class="overlay">
 
-        <div class="welcome-card">
+        <!-- Home Card -->
+        <div class="welcome-card" id="homeCard">
+            <div class="pin"></div>
+            <h1>HI SOBA 🤩</h1>
+            <p>Check your message for today</p>
+            <button id="openNote">Open Today's Note</button>
+        </div>
 
-          <div class="welcome-card" id="homeCard">
-
-    <h1>HI SOBA 🤩</h1>
-
-    <p>Check your message for today</p>
-
-    <button id="openNote">
-        Open Today's Note
-    </button>
-
-</div>
-
-<div class="note-card" id="noteCard">
-
-    <h2>Today's Note 💛</h2>
-
-    <p id="noteText">
-        هنا هتظهر الرسالة
-    </p>
-
-    <button id="backBtn">
-        Back
-    </button>
-
-</div>
+        <!-- Note Card -->
+        <div class="note-card" id="noteCard">
+            <div class="pin"></div>
+            <h2>Today's Note 💛</h2>
+            <p id="noteText">هنا هتظهر الرسالة</p>
+            <button id="backBtn">Back</button>
+        </div>
 
     </div>
 
