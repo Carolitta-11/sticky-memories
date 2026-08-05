@@ -8,13 +8,18 @@ body{
 
     height:100vh;
 
-    background-image:url("https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1600&q=80");
+    background:linear-gradient(
+        135deg,
+        #FFF7F3 0%,
+        #FDF4FF 25%,
+        #EEF9FF 50%,
+        #F4FFF2 75%,
+        #FFFBEA 100%
+    );
 
-    background-size:cover;
+    font-family: "Poppins", Arial, sans-serif;
 
-    background-position:center;
-
-    font-family:Arial, Helvetica, sans-serif;
+    overflow:hidden;
 
 }
 
