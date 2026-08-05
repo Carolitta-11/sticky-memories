@@ -1,54 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi Soba</title>
-    <!-- Cute fonts inspired by the design -->
+
+    <title>Daily Sticky Note</title>
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome icons for the envelope -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Pastel background blob shapes -->
-    <div class="bg-shape shape-1"></div>
-    <div class="bg-shape shape-2"></div>
-    <div class="bg-shape shape-3"></div>
-    <div class="bg-shape shape-4"></div>
+    <!-- Background Shapes -->
 
-    <!-- Decorative stars and hearts -->
-    <span class="sparkle sp-1">✦</span>
-    <span class="sparkle sp-2">✦</span>
-    <span class="sparkle sp-3">✦</span>
-    <span class="sparkle sp-4">✦</span>
-    <span class="heart h-1">♥</span>
-    <span class="heart h-2">♥</span>
-    <span class="heart h-3">♥</span>
+    <div class="blob pink one"></div>
+    <div class="blob peach two"></div>
+    <div class="blob mint three"></div>
+    <div class="blob blue four"></div>
+    <div class="blob purple five"></div>
 
-    <!-- Main sticky note card -->
-    <main class="card-container">
-        <!-- Pink push pin -->
-        <div class="pin"></div>
+    <!-- Stars -->
 
-        <h1 class="title">HI SOBA 🤩</h1>
-        
-        <div class="divider">
-            <span class="line"></span>
-            <span class="divider-heart">♥</span>
-            <span class="line"></span>
+    <div class="star s1">✦</div>
+    <div class="star s2">✦</div>
+    <div class="star s3">✦</div>
+    <div class="star s4">✦</div>
+    <div class="star s5">✦</div>
+
+    <!-- Hearts -->
+
+    <div class="heart h1">❤</div>
+    <div class="heart h2">❤</div>
+    <div class="heart h3">❤</div>
+    <div class="heart h4">❤</div>
+    <div class="heart h5">❤</div>
+
+    <!-- Dots -->
+
+    <div class="dots dots1">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="dots dots2">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="dots dots3">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Main Container -->
+
+    <main class="container">
+
+        <div class="sticky-note">
+
+            <!-- Pin -->
+
+            <div class="pin">
+                <span class="head"></span>
+                <span class="needle"></span>
+            </div>
+
+            <!-- Heading -->
+
+            <h1>
+                HI SOBA
+                <span>🤩</span>
+            </h1>
+
+            <div class="divider">
+                <span>❤</span>
+            </div>
+
+            <p class="subtitle">
+                Check your Message <br>
+                for today
+            </p>
+
+            <button class="open-btn">
+
+                Open Today's Note
+
+                <span class="icon">
+                    ✉
+                </span>
+
+            </button>
+
         </div>
 
-        <p class="subtitle">Check your Message<br>for today</p>
-
-        <button class="btn-note">
-            <span>Open Today's Note</span>
-            <i class="fa-regular fa-envelope"></i>
-        </button>
     </main>
 
 </body>
+
 </html>
